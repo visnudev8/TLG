@@ -1,0 +1,57 @@
+for access token for git hub or password ==========>>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
+
+https://bitbucket.org/account/projects/create
+
+====>>for jira software  --fateh-chandra-work
+https://fateh-chandra-work.atlassian.net/welcome/software
+
+https://fateh-chandra-work.atlassian.net/jira/software/projects/MP/boards/1
+
+user--visnudev8@gmail.com
+password--9319313552@fa
+
+
+
+name--MVC-PROJECT
+key--MP
+
+
+=====>>for bitbuket
+key-MVCPROJ
+
+
+https://github.com/visnudev8/MVC.git
+
+
+
+1. git clone https://github.com/visnudev8/MVC.git
+2. cd mvc
+3. git add .
+4. git commit -m "commit-01-12-2020"
+5. git push origin master
+
+===========with branch=========
+1. git clone https://github.com/visnudev8/MVC.git
+2. git init
+3. git checkout -b branchname;
+4. git add .
+5. git commit -m "commit-01-12-2020"
+6. git push origin branchname
+7. git pull origin branchname
+
+
+
+========>>main url for git
+https://www.datacamp.com/community/tutorials/git-push-pull
+
+
+for more details
+
+
+
+for self everythings
+
+
+for self everythings
+
+for PUbLish mvc
