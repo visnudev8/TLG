@@ -1,0 +1,47 @@
+﻿@model Learning.Models.FileModel
+@{
+    ViewBag.Title = "Xmltransform";
+}
+
+<h2>Xmltransform</h2>
+
+@using (Html.BeginForm("Xmltransform", "Xmlwork", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.files, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.files, "", new { @type = "file", @multiple = "multiple", required = "required" })
+                @Html.ValidationMessageFor(model => model.files, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Upload" class="btn btn-primary" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10 text-success">
+                @ViewBag.UploadStatus
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <h2>Main Links for other Functions</h2>
+    <br />
+    @Html.ActionLink("Dynamic XML Transformation", "DXmltransform", "Xmlwork", null, new { target = "_blank" })
+    <br />
+    @Html.ActionLink("Dynamic XML Wellform checking", "DXmltransform", "Xmlwork", null, new { target = "_blank" })
+    <br />
+    @Html.ActionLink("Dynamic XML validation checking", "DXmltransform", "Xmlwork", null, new { target = "_blank" })
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

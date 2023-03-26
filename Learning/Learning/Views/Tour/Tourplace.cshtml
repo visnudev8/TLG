@@ -1,0 +1,59 @@
+﻿ï»¿@{
+    ViewBag.Title = "Tour";
+}
+
+<head>
+    <style>
+        .blink {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s;
+        }
+
+        #blink1 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ours Tours</h1>
+    <h2>Sonpur festival:</h2>
+    <p>Details coming soon</p>
+    <h2>Bhagoriya festival:</h2>
+    <p>Details coming soon</p>
+    <h2>Bhaguasharm Kirten:</h2>
+    <p>It organise every date 5 of month at bhraguasharm</p>
+    <h2>Harihar Banda:</h2>
+    <p>Every day kirten organise</p>
+    <h2>Ghughralw wali maya:</h2>
+    <p>Details coming soon</p>
+    <h2>Kumauni Place</h2>
+    <p>Details coming soon</p>
+
+    <div>
+        <h2>Other places</h2>
+        <p>Jharkhand: Simdega</p>
+        <p>Himachal: kelong, here festival organise on every 15 august</p>
+        <p>Rajasthan: Badmer, derasar</p>
+        <p>Purniya, Katihar, Kisanganj, Arriya</p>
+        <p>Shakurbasti Delhi</p>
+        <p>Sidh baba kirten: every month purnmasi it organised</p>
+    </div>
+
+
+    <p id="blink" align="center">Register Yourself(If you are interested to see these places)</p>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function () {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 100);
+    </script>
+
+    @*
+        <h2>Register Yourself(If you are interested to see these places)</h2>
+    *@
+</body>
