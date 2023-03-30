@@ -141,6 +141,7 @@
     <Compile Include="Models\crud_test1.cs">
       <DependentUpon>Modelregistration.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\File1Model.cs" />
     <Compile Include="Models\FileModel.cs" />
     <Compile Include="Models\mlregistration.cs">
       <DependentUpon>Modelregistration.tt</DependentUpon>
@@ -225,6 +226,21 @@
     <Content Include="Views\Xmlwork\Xmltransform.cshtml" />
     <Content Include="Views\Tour\Tourplace.cshtml" />
     <Content Include="Views\Xmlwork\DXmltransform.cshtml" />
+    <None Include="Uploadfiles\f-for-all-error-1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Uploadfiles\f-xsd-for-allerrorlist.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Uploadfiles\f.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Views\Xmlwork\Xmlvalidationxsd.cshtml" />
+    <Content Include="Views\Xmlwork\Xmlvalidationdtd.cshtml" />
+    <Content Include="Uploadfiles\note.dtd" />
+    <Content Include="Views\Xmlwork\Xmlvalidationxsd1.cshtml" />
+    <Content Include="Views\Xmlwork\Xmldetailsfile.cshtml" />
+    <Content Include="Views\Xmlwork\Xmlvalidationxsd2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

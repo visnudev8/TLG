@@ -80,3 +80,4 @@ c:\Users\Fateh\Desktop\zoom\Vaishnavi-Chhaya\wip\Learning\Learning\obj\Release\L
 c:\Users\Fateh\Desktop\zoom\Vaishnavi-Chhaya\wip\Learning\Learning\obj\Release\Learning.csproj.CopyComplete
 c:\Users\Fateh\Desktop\zoom\Vaishnavi-Chhaya\wip\Learning\Learning\obj\Release\Learning.dll
 c:\Users\Fateh\Desktop\zoom\Vaishnavi-Chhaya\wip\Learning\Learning\obj\Release\Learning.pdb
+c:\Users\Fateh\Desktop\zoom\Vaishnavi-Chhaya\wip\Learning\Learning\obj\Release\Learning.csprojAssemblyReference.cache

@@ -35,7 +35,7 @@ https://github.com/visnudev8/MVC.git
 2. git init
 3. git checkout -b branchname;
 4. git add .
-5. git commit -m "commit-01-12-2020"
+5. git commit -m "commit-26-03-2023"
 6. git push origin branchname
 7. git pull origin branchname
 
@@ -55,3 +55,7 @@ for self everythings
 for self everythings
 
 for PUbLish mvc
+
+Password tocken:
+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
+
